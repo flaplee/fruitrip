@@ -1,0 +1,210 @@
+@charset "utf-8";
+.consult {
+    background: #FFFFFF;
+    margin: 10px 0 10px 0;
+}
+
+.consult .head {
+    padding: 10px 20px 10px 20px;
+}
+
+.consult .head span {
+    display: block;
+}
+
+.consult .head .title {
+    color: #2AA26B;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    padding: 5px 0 5px 30px;
+    background: #FFFFFF url(/img/www/comment/icon_consult.png) no-repeat scroll center left;
+}
+
+#newConsult {
+    float: right;
+}
+
+.consult .list {
+    background: #F6F5EB;
+    padding: 0 70px 20px 70px;
+}
+
+.consult .questionIcon, .consult .replyIcon, .consult .content {
+    float: left;
+}
+
+.consult .questionIcon, .consult .list .replyIcon {
+    color: #FFFFFF;
+    width: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.consult .questionIcon {
+    background: #1BBC9C;
+}
+
+.consult .replyIcon {
+    background: #3090C9;
+}
+
+.consult .reply {
+    margin-top: 20px;
+}
+
+.consult .list .content {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.consult .question .content {
+    color: #1BBC9C;
+}
+
+.consult .question .content > p {
+    font-size: 16px;
+}
+
+.consult p {
+    line-height: 24px;
+}
+
+.consult .time {
+    color: #878787;
+    font-size: 12px;
+}
+
+.consult .item {
+    padding: 25px 0;
+    border-bottom: 1px dashed #D8D8D8;
+}
+
+.consult .empty {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #878787;
+}
+
+.consult .page {
+    margin-top: -1px;
+    padding-top: 10px;
+    border-top: 1px solid #D8D8D8;
+    text-align: right;
+}
+
+.consult .page a {
+    padding: 2px 15px;
+    border: 1px solid #D8D8D8;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.consult .page a span {
+    display: inline-block;
+}
+
+.consult .page a .arrow-right {
+    margin: 0 -10px -1px 5px;
+    border: 6px solid transparent;
+    border-left: 6px solid #000000;
+}
+
+.consult .page a .arrow-left {
+    margin: 0 5px -1px -10px;
+    border: 6px solid transparent;
+    border-right: 6px solid #000000;
+}
+
+.consult .page .total {
+    color: #ED7C2A;
+}
+
+.consult .page .disabled {
+    color: #878787;
+}
+
+.consult .popBg {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #5F6264;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.consult .loading {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    z-index: 999999;
+}
+
+.consult .dialogCommit {
+    display: none;
+    position: fixed;
+    width: 534px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    z-index: 99999;
+    padding: 5px;
+}
+
+.consult .dialogCommit .close {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #F5A623;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.consult .dialogCommit .body {
+    margin: 0 20px 30px 20px;
+}
+
+.consult .dialogCommit .title {
+    padding: 0 0 10px 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #1BBC9C;
+    color: #1BBC9C;
+}
+
+.consult .dialogCommit .comment, .consult .dialogCommit .connent {
+    float: left;
+}
+
+.consult .dialogCommit .comment {
+    width: 60px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#consultInfo, #consultContact {
+    width: 410px;
+    border: 2px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+#consultInfo:focus, #consultContact:focus {
+    border: 2px solid #50E3C2;
+}
+
+#consultInfo {
+    height: 165px;
+    overflow:auto;
+    resize: none;
+    margin-bottom: 6px;
+}
+
+#consultCommit {
+    width: 145px;
+    margin: 20px 0 0 80px;
+}

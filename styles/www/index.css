@@ -1,0 +1,193 @@
+#ad {
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+#ad a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	height: 400px;
+	width: 100%;
+	background: repeat-x center;
+}
+#ad a.selected {
+	display: block;
+}
+#ad-navigator {
+	position: absolute;
+	top: 360px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+#ad-navigator a {
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	cursor: pointer;
+	margin-left: 10px;
+	background: none;
+	border: 2px solid #2AA26B;
+	border-radius:10px;
+}
+#ad-navigator a.selected {
+	background: #2AA26B;
+}
+
+.hats{width:100%;height:30px;line-height: 30px;background-color: #fff;}
+.hats-user{}
+.hats-user li{float: left;height: 30px;line-height: 30px;margin-right: 10px;}
+.hats-user li a{}
+.hats-act{}
+.hats-act li{float: left;height: 30px;line-height: 30px;margin-right: 10px;}
+.hats-act li a{}
+
+.content .indexnav{height: 400px;}
+.content .indexnav .nav-box{width: 270px;height: 400px;}
+/*.content .indexnav .nav-box .item{width: 270px;height: 50px;float: left;background: #fff;position: relative;}
+.content .indexnav .nav-box .item .nav-box-lside{margin-left: 10px;margin-right: 10px;text-align: center;}
+.content .indexnav .nav-box .item .nav-box-lside .top-title{width: 200px;line-height: 20px;border: solid #fff;font-weight: 400;border-width: 1px 0 1px 0;font-size: 14px;position: relative;}
+.nav-box-rside{position: absolute;right: -60px;top:0;width: 60px;z-index: 2;}
+.nav-box-rside .hide-nav{width: 70px;position:relative;}
+.nav-box-rside .hide-nav a{display: inline-block;width: 60px;height: 30px;line-height:30px;text-align:center;background:#fff;color:#f80;float: left;padding:0 5px;}
+.nav-box-rside .hide-nav a:hover{background: #37c249;color:#fff;}*/
+
+.hide-nav-list{position: absolute;left: 0;}
+.hide-nav-pic{position: absolute;left: 70px;}
+
+.content .indexnav .banner-box{display: inline-block;width: 1000px;height: 400px;position: relative;top:0;}
+
+
+
+
+.mainBox{}
+.mainBox .tabBox{width: 1000px;}
+.mainBox .tabBox .layer_header{width: 1000px;height: 32px;border-bottom: 2px solid #517ac0;margin-top:20px;margin-bottom: 20px;}
+.layer_header{}
+.layer_header h2{float: left;font-size: 20px;width: 180px;height: 32px;line-height: 32px;}
+.layer_header .tabs {float: left;font-size: 14px;color: #666;}
+.layer_header .tabs li{float: left;width: 100px;height: 32px;line-height: 32px;text-align: center;}
+.layer_header .tabs li.current{background: #517ac0;}
+.layer_header .tabs li.current a{color:#fff;}
+.layer_content{width: 956px;height: 320px;}
+.layer_content > a.list{display: inline-block;width: 956px;height: 320px;border:1px solid #ccc;padding:0 20px;margin-bottom: 10px;background-color: #fff;}
+.layer_content > a.list:hover{border-color:#517ac0;}
+.layer_content .title{  padding: 15px 0;white-space: nowrap;overflow: hidden;font-size: 16px;color: #333;text-overflow: ellipsis;margin-right: 100px;}
+.layer_content_detail{border-top: 1px dashed #ccc;padding-top: 15px;position: relative;}
+.layer_content_detail .imgBox{float: left;margin-right:20px;}
+.layer_content_detail .info{float: left;width: 440px;}
+.layer_content_detail .info .basic >div{width:430px;}
+.layer_content_detail .info .reasonBox{position: absolute;bottom: 15px;width: 440px;}
+	.reasonBox .reasonInfo{width: 440px;}
+	.reasonBox .reasonInfo p{margin-right:10px;line-height: 1.5em;}
+	.info .reasonBox .list{float: left;width: 33%;font-size: 14px;color: #1BBC9C;max-height: 100px;overflow: hidden;margin-top: 0;}
+.layer_content_detail .btnBox{position: absolute;bottom: 15px;right: 30px;padding-left: 30px;top: 15px;padding-top: 15px;border-left: 1px dashed #ddd;}
+.layer_content .list .info .hline {margin: 15px 0;border-bottom: 1px solid #ddd;}
+.layer_content .list .info .hline > span {position: absolute;margin-top: -8px;padding: 2px;width: 12px;height: 12px;background-color: #2AA26B;border-radius: 16px;}
+.layer_content .list .info .hline > span span{margin-bottom: 4px;}
+
+.select-program-box{}
+.select-program-box:hover{}
+.content .feature{margin:20px 0;}
+.content .feature > div{margin-right:36px;}
+.content .feature > .left > div{width:171px;}
+.content .feature .icon{display:block;float:left;margin-right:20px;margin-top:3px;}
+.content .feature .title{font-size: 16px;margin:0 0 10px 0;color:#1BBC9C;font-weight: bold;}
+
+.filter-box{padding:10px 25px;background:#fff;border-top:1px solid #ccc;position: relative;}
+.filter-box .menu{margin-top:15px;}
+.filter-box .menu a{display:block;float:left;width:43%;margin-right:5px;margin-bottom:5px;text-align:center;line-height: 40px; background:#E9E9E9;}
+.filter-box .imgBox{position:relative;width:100%;height:242px;}
+.filter-box .imgBox span{position:absolute;top:0;left:0;}
+.filter-box .imgBox > a{display:block;position:absolute;text-align: center;padding-top:1px; color:#fff;font-size: 10px;}
+.filter-box .imgBox .Canada{top:40px; left:50px;}
+.filter-box .imgBox .Canada:hover{top:38px;}
+.filter-box .imgBox .America{top:85px; left:80px;}
+.filter-box .imgBox .America:hover{top:83px; left:80px;}
+.filter-box .imgBox .England{top:60px; left:200px;}
+.filter-box .imgBox .England:hover{top:58px; left:200px;}
+.filter-box .imgBox .NorthEurope{top:38px; left:246px;}
+.filter-box .imgBox .NorthEurope:hover{top:36px; left:246px;}
+.filter-box .imgBox .China{top:80px; left:340px;}
+.filter-box .imgBox .China:hover{top:78px; left:340px;}
+.filter-box .imgBox .Taiwan{top:90px; left:390px;}
+.filter-box .imgBox .Taiwan:hover{top:88px; left:390px;}
+.filter-box .imgBox .HongKong{top:110px; left:360px;}
+.filter-box .imgBox .HongKong:hover{top:108px; left:360px;}
+.filter-box .imgBox .Singapore{top:140px; left:350px;}
+.filter-box .imgBox .Singapore:hover{top:138px; left:350px;}
+.filter-box .imgBox .Australia{top:170px; left:370px;}
+.filter-box .imgBox .Australia:hover{top:168px; left:370px;}
+.filter-box .imgBox .NewZealand{top:190px; left:425px;}
+.filter-box .imgBox .NewZealand:hover{top:188px; left:425px;}
+
+.customize{margin-top:15px;}
+.customize .selectBox{position:relative; margin-bottom: 8px; text-align:center; font-size:10px; background:#2AA26B;border-radius:3px;}
+.customize .selectBox .text{float:left;margin:3px 10px; width:80%;height:20px;color:#fff; line-height:20px;border-right:1px solid #fff;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.customize .selectBox .list{display:none; position:absolute;padding:10px 15px; right:0;width:155%;font-size:14px; background: rgba(255,255,255,0.9); border:1px solid #2AA26B;z-index: 99;}
+.customize .selectBox:hover .list{display: block;}
+.customize .selectBox .list > span{display:block;float:left;padding:8px 10px;width:25%;text-align: left;}
+.customize .selectBox .list > span:hover{cursor: pointer;}
+.customizeButton{margin-top:25px; padding:10px; color:#fff; text-align:center; font-size: 14px; font-weight: bold; background:#2AA26B;border-radius:3px;}
+.customizeButton:hover{background:#1BBC9C;cursor: pointer;}
+.customizeUser, .customizeTips{display:none;position:fixed;top:30%;left:35%;width:400px;padding:20px 10px;background:#fff;z-index:999}
+.customizeUser span.close, .customizeTips span.close{display:block;position:absolute;right:10px;top:10px;padding:0px 6px 2px 6px;line-height:16px;color:#fff;background:#F0AA3F;border-radius:20px;cursor: pointer;}
+.customizeUser .minTip, .customizeTips .minTip{width:240px;padding:30px 10px 18px 13px;font-size:14px;color:gray;}
+.customizeTips .msgBox{display:none;padding:20px 0;border-top:1px dashed #ddd;border-bottom:1px dashed #ddd;}
+
+.programBox .category{position:relative;margin:10px 0;font-size:20px;font-weight:bold;}
+.programBox .category a[name]{position:absolute;top:0;}
+.programBox .programList{position:relative;}
+.programBox .programList .catInfo{position:relative;;float:left;padding:20px 20px;width:96px;height:174px;text-align:center;background:#2AA26B;}
+.programBox .programList .catInfo [icon-bg] {margin-bottom:3px;}
+.programBox .programList .catInfo .tips{margin-top:12px;font-size:12px;line-height:16px;text-align:left;color:#fff;}
+.programBox .programList .list1 > .left{position:relative;width:862px;height:214px;margin-left:2px;}
+.programBox .programList .list2 > .left{position:relative;width:430px;height:214px;margin-left:2px;}
+.programBox .programList .list3 > .left{position:relative;width:285px;height:214px;margin-left:3px;}
+.programBox .programList .imgBox{position:relative;float:left;width:864px;height:214px;overflow: hidden;}
+.programBox .programList .imgBox .layer{margin-left:2px;position:absolute;padding:15px 20px 35px 20px;top:0px;left:-999px;height:162px;width:320px;line-height:1.7em;border:1px solid #2AA26B;border-left:0;color:#000;background:rgba(255,255,255,0.9);z-index:99;font-size: 12px;}
+.programBox .programList .imgBox > .left > img{width:100%;height:100%;}
+.programBox .programList .imgBox .tag{
+	position:absolute;bottom:0;left:0;right:0;line-height:50px;color:#fff;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 40px;
+	background: -webkit-gradient(linear, 0% 0% 0% 100%, from(rgba(255,255,255,0)), to( rgba(0,0,0,0.8)));
+	FILTER: alpha(opacity=100 finishopacity=0 style=1 startx=0,starty=5,finishx=90,finishy=60);
+	progid:DXImageTransform.Microsoft.gradient(startcolorstr=red,endcolorstr=blue,gradientType=1);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0), rgba(0,0,0,0.8));
+	background:-moz-linear-gradient(top,rgba(255,255,255,0), rgba(0,0,0,0.8));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0),  rgba(0,0,0,0.8));
+	background: -o-linear-gradient(top, rgba(255,255,255,0),  rgba(0,0,0,0.8));
+}
+.programBox .programList .imgBox .detail{display:none;position:absolute;top:0;width:100%;height:100%;background:rgba(42,162,107,0.8);color:#fff;}
+.programBox .programList .list1 .detail{width:430px;right:0;}
+.programBox .programList .imgBox .detail .btn {width:120px;height:30px;line-height:30px;padding:0;margin:0 auto;background-color:#F5A623;color: color:#fff;text-align:center;border-radius:3px;}
+.programBox .programList .imgBox .detail a{padding:6px 15px 8px 15px;color:#fff;font-size:13px;background:#F5A623;border-radius:3px;}
+.programBox .programList .imgBox .location span{display:inline-block;float:left;margin-left:10px;color:#1BBC9C;font-size:12px;}
+.programBox .programList .more{position:absolute;top:10px;right:-22px;width:22px;padding:10px 0;font-size:12px;text-align:center;color:#fff;background:#2AA26B;border-radius:0 4px 4px 0;}
+
+.whiteBox{margin-top:20px;padding:10px;border-top:1px solid #ddd;background:#fff;}
+.whiteBox .wonderfulReview{width:660px;padding-right:20px;border-right:1px solid #ddd;}
+.whiteBox .wonderfulReview .imgList .item{position:relative;display:block;float:left;margin:10px 0 0 10px;}
+.whiteBox .wonderfulReview .imgList .title{position:absolute;bottom:5px;left:20px;right:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:white;}
+.whiteBox .wonderfulReview .imgList img{width:210px;height:138px;}
+.whiteBox .articleList{margin:10px 0 10px -30px;height:120px;line-height: 1.7em;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.whiteBox .articleList .li{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+.navBar{z-index:9999;position:fixed;top:100px;left:0px;background:#ddd;border-right:1px solid #ddd;border-bottom:1px solid #ddd;}
+.navBar dt{margin-top:1px;color:#fff;}
+.navBar dt a{display:block;padding:10px 0;width:70px;height:40px;text-align:center;background: #fff;overflow:hidden;}
+.navBar dt.selected a{background:#2AA26B;}
+.navBar dt.selected span:first-child{display:none;}
+
+.bg{background-color: #000;filter:alpha(opacity=50);opacity:0.5;z-index:3;position:fixed; }
+.shade-text{width:430px;height:220px;/* border:1px solid #fff; */z-index:2;position:fixed;left:0px;top:0px;z-index:999;font-size:25px;font-weight:bold;color:#000;text-align:center;line-height:160px;letter-spacing:2px; }
+.facus-circle{width:137px;height:137px;background-image: url(/img/www/home/bg_firstmet.png);position:absolute;left:13px;top:3px; }
+.deer_firstmet{width:158px;height:128px;background-image: url(/img/www/home/deer_firstmet.png);position: absolute;left:115px;top:95px;}
+.first-box{width:150px;height:95px;position:absolute;left:290px;top:110px;}
+.first-box p{line-height:25px;font-size: 16px;color:#fff;text-align: left;}
+.i-know{display:block;margin-top:5px;width:110px;height:40px;background-color:#F5A623;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;line-height: 40px;text-align: center;font-size: 13px;color:#fff;}
+
+
+

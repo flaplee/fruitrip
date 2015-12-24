@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="水果之旅网,个人博客">
+    <meta name="description" content="水果之旅网">
+    <title>水果之旅网</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/bg.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/www/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/owl.theme.css"/>
+        <style>
+        .owl-item{
+            width: 1000px;
+            height:400px;
+        }
+        .owl-item a,.owl-item a img{
+            display: inline-block;
+            width: 1000px;
+            height:400px;
+        }
+        .owl-buttons {
+            height: 40px;
+            width: 1000px;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 50%;
+            margin-bottom: -20px;
+            left: 0;
+        }
+        .owl-prev {
+            position: absolute;
+            left: 0;
+        }
+        .owl-next {
+            position: absolute;
+            right: 0;
+        }
+        .owl-wrapper-outer {
+            background-size: 100%;
+            background-color: rgb(180, 194, 197);
+        }
+        .owl-small-img {
+            position: absolute;
+            bottom: 40px;
+            left: 75px;
+        }
+            .owl-small-img li {
+                width:150px;
+                height:30px;
+                margin: 6px 10px;
+                float: left;
+                background: #fff;
+                opacity: 0.8;
+            }
+                .chgs-item {
+                    display: inline-block;
+                    background: #fff;
+                    opacity: 0.7;
+                    color: #333;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                    .owl-small-img li a{
+                        width: 150px;
+                        height: 30px;
+                        line-height: 30px;
+                        display: inline-block;
+                        text-align: center;
+                        overflow:hidden;
+                    }
+        .current-chgs-item {
+            color: #fff;
+            opacity: 0.7;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="hats">
+        <div class="wrapper">
+            <ul class="hats-user left">
+                <li><a href="#" target="_blank">登录</a></li>
+                <li><a href="#" target="_blank">注册</a></li>
+                </ul>
+            <ul class="hats-act right">
+                <li><a href="#" target="_blank">新鲜资讯</a></li>
+                <li><a href="#" target="_blank">站点地图</a></li>
+                <li><a href="#" target="_blank">VIP</a></li>
+                <li><a href="#" target="_blank">客户端</a></li>
+                <li><a href="#" target="_blank">微博</a></li>
+                <li><a href="#" target="_blank">微信</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="wrapper">
+            <div class="left">
+                <a href="/" class="logo" icon-bg="logo-user"></a>
+                <div class="slogan"></div>
+                <div class="contact" icon-bg="icon-call"></div>
+            </div>
+            <div class="right">
+                <div>
+                    <input type="text" accept-target=".searchbox-button" placeholder="目的地、项目名等" class="searchbox" value=""><span class="green button searchbox-button">搜索</span>
+                </div>
+                <div class="menu">
+                    <a href="#" title="#menu1">了解我们</a>
+                    <a href="#" title="#menu2">常见问题</a>
+                    <a href="#" title="#menu3">推广专题</a>
+                    <a href="#" title="#menu3" class="highlight">热门推荐</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper navBox hide-nav">
+        <div class="left select-program-box">
+            <div class="left"><div style="margin-bottom:3px;">主要学习内容</div><div class="size-12">分类<span icon-bg="icon_new" style="margin-left:5px;border-radius:2px;"></span></div></div>
+            <div class="left arrow-right" style="margin-left:20px;margin-top:14px;"></div><div class="clear"></div>
+            <div class="intro">
+                <a style="width:332px;cursor:pointer;" href="/theory/detail" target="_blank">
+                    <div class="left"><span class="icon" icon-bg="icon_question"></span></div>
+                    <div class="infoBox">
+                        <div class="size-16 black bold thelink">什么是多元智能理论？</div>
+                        <div class="info size-12">
+                            <div class="gray">人的只能并不仅仅是语文数学这些单一的读写记的能力,还包括很多其他方面的智能...</div>
+                        </div><div class="left"><span class="icon" icon-bg="icon_arrow_right"></span></div><div class="clear"></div>
+                    </div>
+                </a>
+                <a style="width:332px;cursor:pointer;" href="/theory/evaluation" target="_blank">
+                    <div class="left"><span class="icon" icon-bg="icon_test"></span></div>
+                    <div class="infoBox">
+                        <div class="size-16 highlight bold thelink">测试：依据多元智能理论选择项目</div><div class="info size-12">
+                            <div class="gray">每个人都有其天赋所在,所以我们看一个孩子一定要全方位的评价并且顺其天赋去培养他！</div>
+                        </div><div class="left"><span class="icon" icon-bg="icon_arrow_right"></span></div><div class="clear"></div>
+                    </div>
+                </a>
+                <a style="width:332px;cursor:pointer;" href="/theory/about" target="_blank">
+                    <div class="left"><span class="icon" icon-bg="icon_child"></span></div>
+                    <div class="infoBox">
+                        <div class="size-16 black bold thelink">看看其他孩子在干什么？</div>
+                        <div class="info size-12"><div class="gray">已经有1005个孩子通过我们的多元智能教育体系参与了游学项目。<br /><br /></div></div>
+                        <div class="left"><span class="icon" icon-bg="icon_arrow_right"></span></div><div class="clear"></div>
+                    </div>
+                </a>
+            </div><div class="clear"></div>
+        </div>
+        <div class="left mi-menu">
+            <div class="item"><a href="javascript:_headerQuery('最新分享', 'mi')">最新分享</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('网页特效', 'mi')">网页特效</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('网页素材', 'mi')">网页素材</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('个人笔记', 'mi')">个人笔记</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('网络日志', 'mi')">网络日志</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('查阅资料', 'mi')">查阅资料</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('自我认知', 'mi')">自我认知</a><div class="arrow-top-menu"></div></div>
+            <div class="item"><a href="javascript:_headerQuery('个人作品', 'mi')">个人作品</a><div class="arrow-top-menu"></div></div>
+        </div>
+        <div class="loginBox">
+            <a class="isLogin" href="/user_center/" style="display:none"></a>
+            <a href="/login/index" class="noLogin"><span class="icon" icon-bg="icon_user"></span><div class="size-12">请登录</div></a>
+            <div class="userBox"><a href="/user_center" class="userList">个人中心</a><a href="/logout/" class="userList">注销</a></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="wrapper content">
+        <div class="indexnav clearfix">
+            <div class="banner-box right" id="section2">
+                <div id="owl-demo2" class="owl-carousel">
+                    <a class="chgs-item"><img src="images/big1.jpg" alt=""></a>
+                    <a class="chgs-item"><img src="images/big2.jpg" alt=""></a>
+                    <a class="chgs-item"><img src="images/big1.jpg" alt=""></a>
+                    <a class="chgs-item"><img src="images/big2.jpg" alt=""></a>
+                    <a class="chgs-item"><img src="images/big1.jpg" alt=""></a>
+                    <a class="chgs-item"><img src="images/big2.jpg" alt=""></a>
+                </div>
+                <ul class="owl-small-img">
+                    <li><a href="#" class="chgs-item current-chgs-item">banner1</a></li>
+                    <li><a href="#" class="chgs-item">banner2</a></li>
+                    <li><a href="#" class="chgs-item">banner3</a></li>
+                    <li><a href="#" class="chgs-item">banner4</a></li>
+                    <li><a href="#" class="chgs-item">banner5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainBox clearfix">
+            <div class="tabBox">
+                <div class="layer_header">
+                    <h2>Web 资源集合</h2>
+                    <ul class="tabs">
+                        <li><a rel="nofollow" href="javascript:void(0)">最新分享</a></li>
+                        <li class="current"><a rel="nofollow" href="javascript:void(0)">jquery特效</a></li>
+                        <li><a rel="nofollow" href="javascript:void(0)">模板主题</a></li>
+                        <li><a rel="nofollow" href="javascript:void(0)">个性内容</a></li>
+                        <li><a rel="nofollow" href="javascript:void(0)">解决方案</a></li>
+                    </ul>
+                </div>
+                <div class="layer_body">
+                    <div class="layer_content clearfix">
+                        <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="layer_content clearfix" style="display:none;">
+                        <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                         <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="layer_content clearfix" style="display:none;">
+                        <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                         <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                        <a href="#" target="_blank" class="list">
+                            <div class="title">
+                                <span class="tage">语言</span>
+                                <span class="tage">自我认知</span>
+                                学习JAVASCRIPT,认真学习
+                            </div>
+                            <div class="title_copy" style="display:none;">JQuery</div>
+                            <div class="layer_content_detail">
+                                <div class="imgBox">
+                                    <img src="" width="310" height="220">
+                                </div>
+                                <div class="info">
+                                    <div class="basic">
+                                        <p>推荐指数：<span class="basic_star">5星</span></p>
+                                        <p>举办地点：<span class="basic_place"></span></p>
+                                        <p>项目时间：<span class="basic_time"></span></p>
+                                    </div>
+                                    <div class="reasonBox">
+                                        <div style="font-weight:bold;font-size:16px;">推荐理由：</div>
+                                        <div class="hline">
+                                            <span><span icon-bg="icon_ok"></span></span><span style="left:33%"><span icon-bg="icon_ok"></span></span><span style="left:66%"><span icon-bg="icon_ok"></span></span>
+                                        </div>
+                                        <div class="reasonInfo">
+                                            <div class="list">
+                                                <p>插班营体验美国全真课堂，提前适应美国教育模式；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>入住寄宿家庭感受文化氛围，随时随地锻炼口语；</p>
+                                            </div>
+                                            <div class="list">
+                                                <p>拜访常青藤名校、著名公立大学、西点军校及MIT；</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btnBox">
+                                    <div class="highlight size-16">39800 201503</div>
+                                    <span class="button green toYellow" target="_blank" style="padding:10px 25px;margin-top:40px;">查看详情 &gt;</span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        <div class="footer-about wrapper">
+                <div class="list list-0">
+                    <h3>联系我们：</h3>
+                    <a href="/about/xinzuji#xinzuji" target="_blank">关于我们</a>
+                    <a href="/about/xinzuji#contactus" target="_blank">联系方式</a>
+                </div>
+                <div class="list list-1">
+                    <h3>帮助中心：</h3>
+                    <a href="/about/helpcenter#faqs" target="_blank">常见问题</a>
+                    <a>在线咨询</a>
+                    <a href="/sitemap" target="_blank">站点地图</a>
+                </div>
+                <div class="list list-2">
+                    <h3>最新分享：</h3>
+                    <a href="/about/webterms#user-agreement" target="_blank">全屏侧滑导航栏1</a>
+                    <a href="/about/webterms#privacy-protection" target="_blank">全屏侧滑导航栏2</a>
+                    <a href="/about/webterms#disclaimer" target="_blank">全屏侧滑导航栏3</a>
+                </div>
+                <div class="list list-3">
+                    <h3>友情链接：</h3>
+                    <a href="/about/webterms#user-agreement" target="_blank">前端开发</a>
+                    <a href="/about/webterms#privacy-protection" target="_blank">前端博客</a>
+                    <a href="/about/webterms#disclaimer" target="_blank">前端最新技术</a>
+                </div>
+                <div class="clear"></div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;@alanone All Rights Reserved.</p>
+            <p><a href="#">alanonetest</a></p>
+        </div>
+    </div>
+    <script charset="text-javascript" src="/scripts/jquery.min.js"></script>
+    <script charset="text-javascript" src="/scripts/jquery-ui.min.js"></script>
+    <script charset="text-javascript" src="/scripts/owl.carousel.min.js"></script>
+    <script charset="text-javascript" src="/scripts/main.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('.programBox .programList .imgBox > div.left').hover(function(){
+            $(this).find('.detail').stop()
+            .css({display: 'block',height: 174,marginTop: 40,opacity: 0}).show()
+            .animate({height: 214,marginTop: 0,opacity: 1}, 200);
+        }, function(){
+            var detail = $(this).find('.detail');detail.stop()
+            .css({height: 214,marginTop: 0,opacity: 1})
+            .animate({height: 0,marginTop: 214,opacity: 0}, 200, undefined, function(){
+            detail.hide();
+            });
+        });
+        $('.select-program-box').hover(function(){
+            $('.select-program-box .intro').stop().slideDown(200);
+        }, function(){
+            $('.select-program-box .intro').stop().slideUp(200);
+        });
+        $('.nav-box .item').hover(function(){
+            $(this).find('.nav-box-rside').css('display','block');
+        },function(){
+            $(this).find('.nav-box-rside').css('display','none');
+        });
+        $('.layer_header .tabs li').click(function(){
+            var current = $(this).index();
+            $(this).addClass('current').siblings().removeClass('current');
+            var $content =  $('.layer_body > div.layer_content');
+            $content.eq(current).show().siblings().hide();
+        });
+    });
+    </script>
+</body>
+</html>

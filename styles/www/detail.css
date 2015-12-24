@@ -1,0 +1,177 @@
+/*userfulColor*/
+.dGreen{color:#3fab79;font-weight: bold;}
+.dAqua{color:#2ac1a3;}
+.dOrange{color:#ed7c2a;}
+.dPink{color:#ff7272;}
+.dBlue{color:#6ea6e8;}
+.dgray{color:#9e9e9e;}
+.dGreen a{color:#3fab79;}
+.dblod{font-weight: bold;}
+/*userfulBackground*/
+.mainBg{background: #fff;}
+.bg{background: #999;}
+.bg1{background: #f60;}
+.dTop{height:auto;width:100%;font-size: 12px;}
+/*NAV*/
+.dNav{width:100%;padding-top: 15px;font-size:12px;}
+.navLeft{float:left;padding-left:22px;color:#9d9d9d;}
+.navRight{float:right;padding-right:22px;color:#666;}
+/*TITLE*/
+.dTitle{width:962px;margin:0 auto;border-bottom: 2px solid #2aa26b;padding:12px 13px 20px 13px;display:inline-block;}
+.dTitle li{display:block;max-width:100%;float:left;text-align:left;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
+.dTitle .titleCn{font-size:20px;font-weight: bold;color:#262626;}
+.dTitle .titleEn{font-size:12px;color:#9d9d9d;padding-top:10px;padding-left:5px;}
+/*HEAD*/
+.dHead{height:480px;width:100%;}
+.dHeadTop{height:270px;margin:18px 0px 17px 0px;}
+/*PART LEFT*/
+.dHeadTop .dHeadTopLeft{width:360px;height:270px;margin-left: 33px;float: left;}
+/*PART CENTER*/
+.dHeadTop .dHeadTopCenter{width:370px;height:100%;float: left;position: relative;}
+.dHeadTop .dHeadTopCenter .TopCenterBox{float: left;width:100%;min-height:30px;}
+.TopCenterBox .BoxTitle{display:block;width:85px;float: left;line-height:25px;text-align: center;color:#595959;font-size: 12px;}
+.TopCenterBox .BoxText{display:block;width:255px;float: left;line-height:20px;text-align:left;font-size:12px;margin-top: 3px;}
+.TopCenterBox .BoxText li{width:30px;height:45px;display:block;float: left;font-size:12px;text-align:left;color:#1bbc9c;margin-left:5px;}
+.TopCenterBox .BoxText p{float: left;padding-bottom:2px;}
+.dHeadTop .dHeadTopCenter .TopCenterBottom{float: left;width:auto;margin-left:20px;height:90px;position:absolute;bottom:0px;overflow: hidden;}
+.TopCenterBottom .BottomeLeft{margin-left:20px;}
+.TopCenterBottom .BottomBox{width:110px;height:59px;float: left;position:relative;border-top: 1px solid #d9d9d9;margin-top: 20px;}
+.TopCenterBottom .BottomBox .BottomText{display:block;width:86px;height:52px;font-size: 12px;position: absolute;bottom:-12px;color:#1bbc9c;font-weight: bold;}
+.TopCenterBottom .BottomBox .BottomIcon{display:block;width:16px;height:16px;background: #999;position: absolute;top:-8px;left:2px;border-radius: 16px;background:  #2aa26b url(/img/www/program/BottomIcon.png) no-repeat center !important;}
+/*PART RIGHT*/
+.dHeadTop .dHeadTopRight{width:230px;height:270px;margin-right: 7px;float:right;}
+.dHeadTop .dHeadTopRight .left-intel-box{width:250px;height:225px;float:left;margin-left:-20px;margin-top: -10px;}
+.dHeadTop .dHeadTopRight .left-intel-star{height:55px;width:auto;text-align: center;line-height: 55px;font-size: 12px;}
+.dHeadTopRight .left-intel-box{float:left;width:100%;height:100%; }
+.dHeadTopRight .left-intel-box  > *{width:100%;height:100%;}
+/*@Honor*/
+.dFeeChoose{width:100%;min-height:134px;margin:14px 0px 15px 0px;background: #f6f5eb;float: left;padding:16px 0px 11px  0px;}
+.dFeeChoose .Box-title{width:100%;height:25px;float: left;text-align: left;clear: both;text-indent: 2em;color:#9b9b9b;font-size: 12px;}
+.dFeeBox1{width:411px;min-height:134px;border-right: 1px dashed #999;float: left;display: block;}
+.dFeeChoose .dFeeBox1 .Box-text{width:110px;height:90px;margin-top: 0px;text-align:left;float:left;display:block;clear:left;text-indent: 2em;}
+.dFeeChoose .dFeeBox1 .Box-text p{line-height:25px;margin-bottom: 5px; color:#696967;}
+.dFeeChoose .dFeeBox1 .fee-panel{width:300px;float:left;}
+.dFeeChoose .dFeeBox1 .fee-panel select{width: 250px;float:left;height:25px;background: #2aa26b;color:#fff;border-radius: 5px;margin-bottom: 5px;border: 0px;text-align:center;line-height:25px;}
+.dFeeChoose .dFeeBox1 .fee-panel option{line-height:25px;}
+.dFeeChoose .dFeeBox1 .fee-panel ul{display: block;width:400px;height:105px;background: #f6f5eb;margin-top:10px;left:0px;padding:0;}
+.dFeeChoose .dFeeBox1 .fee-panel ul li{display: block;float:left;min-width:258px;max-width:380px;height:28px;border:1px solid #d8d8d8;margin-left:34px;background:#f6f6f6;color:#4a4a4a; line-height: 27px;text-align:left;text-indent: 1em;margin-top:5px;font-size: 12px;}
+.dFeeChoose .dFeeBox1 .fee-panel  .on{background:#fff5d2 url(/img/www/program/checkon.png) no-repeat left;border-color:#f5a623;}
+.dFeeBox2{width:165px;min-height:134px;border-right: 1px dashed #999;float: left;display: block;}
+.dFeeBox2 .Box-num{display: block;clear: both;margin:auto 30px;padding-top:36px;}
+.dFeeBox2 .Box-botton{width:22px;height:25px;background: #1bbc9c;float: left;line-height: 25px;text-align: center;color:#fff; cursor:pointer;}
+.dFeeBox2 .Box-botton:hover{color:#333;}
+.dFeeBox2 .amount{width:40px;height:23px;float: left;border:1px solid #d8d8d8;text-align: center;}
+.dFeeBox3{width:223px;min-height:134px;border-right: 1px dashed #999;float: left;display: block;}
+.dFeeBox3 .Box-fee{float:left;margin-top:0px auto;width:211px;padding:15px 6px;text-align:left;line-height:30px;font-size: 12px;color:#5b5b5a;}
+.dFeeBox3 .Box-fee p{padding-left:30px}
+.dFeeBox4{width:198px;min-height:134px;float: left;display: block;}
+.dFeeBox4 .Box-fee-fh{display:block;width:198px;height:36px;line-height:18px;text-align: center;padding-top:19px;}
+.dFeeBox4 .Box-fee-fh p{font-size: 12px;}
+.dFeeBox4 .Box-fee-on{display:block;width:122px;height:40px;background: #f49d27;border-radius: 5px;margin-top: 10px;margin-left: 38px;line-height: 40px;text-align: center;color:#fff;}
+.dFeeBox4 .Box-fee-off{display:block;width:122px;height:40px;background: #d8d8d8;border-radius: 5px;margin-top: 10px;margin-left: 38px;line-height: 40px;text-align: center;color:#fff;}
+.dFeeBox4 .offText{color:#A2A19D;margin-top:8px;width: 100%;text-align: center;}
+.dFeeBox4 .Box-fee-on:hover{color:#313131;cursor:pointer;}
+
+
+/*@Honor*/
+/* PART BOTTOM*/
+.dHeadBottom{width:100%;height:134px;margin:14px 0px 15px 0px;background: #f6f5eb;float: left;padding:16px 0px 11px  0px;}
+/* PART BOTTOM  PART1*/
+.dHeadBottom .dBottomPart1{width:411px;height:134px;border-right: 1px dashed #999;float: left;position: relative;}
+.dHeadBottom .dBottomPart1 .Box-title{width:100%;height:25px;float: left;text-align: left;clear: both;text-indent: 2em;color:#9b9b9b;font-size: 12px;}
+.dHeadBottom .dBottomPart1 .Box-text{width:110px;height:90px;margin:0 auto;margin-top: 0px;text-align:left;float: left;clear: left;text-indent: 2em;}
+.dHeadBottom .dBottomPart1 .Box-text p{line-height:25px;margin-bottom: 5px; color:#696967;}
+.dHeadBottom .dBottomPart1 .fee-panel{width: 300px;float:right;height:90px;margin-top:0px;}
+.dHeadBottom .dBottomPart1 .fee-panel select{width: 250px;float:left;height:25px;background: #2aa26b;color:#fff;border-radius: 5px;margin-bottom: 5px;border: 0px;text-align:center;line-height:25px;}
+.dHeadBottom .dBottomPart1 .fee-panel option{line-height:25px;}
+.dHeadBottom .dBottomPart1 .fee-panel ul{display: block;width:400px;height:105px;background: #f6f5eb;position: absolute;top:10px;left:0px;padding:0;}
+.dHeadBottom .dBottomPart1 .fee-panel ul li{display: block;float:left;min-width:258px;max-width:380px;height:28px;border:1px solid #d8d8d8;margin-left:34px;background:#f6f6f6;color:#4a4a4a; line-height: 27px;text-align:left;text-indent: 1em;margin-top:5px;font-size: 12px;}
+.dHeadBottom .dBottomPart1 .fee-panel  .on{background:#fff5d2 url(/img/www/program/checkon.png) no-repeat left;border-color:#f5a623;}
+
+/* PART BOTTOM  PART2*/
+.dHeadBottom .dBottomPart2{width:165px;height:134px;border-right: 1px dashed #999;float: left;}
+.dHeadBottom .dBottomPart2 .part2Top{width:119px;height:25px;margin-left:22px;float: left;display: block;font-size: 12px;}
+.dHeadBottom .dBottomPart2 .part2Bottom{width:auto;height:25px;margin-top:30px;margin-left: 24px ;float: left;display: block;clear: both;}
+.dHeadBottom .dBottomPart2 .part2Bottom .part2Botton{width:22px;height:25px;background: #1bbc9c;float: left;line-height: 25px;text-align: center;color:#fff; cursor:pointer;}
+.dHeadBottom .dBottomPart2 .part2Bottom .part2Botton:hover{color:#333;}
+.dHeadBottom .dBottomPart2 .part2Bottom .amount{width:40px;height:23px;float: left;border:1px solid #d8d8d8;text-align: center;}
+/* PART BOTTOM  PART3*/
+.dHeadBottom .dBottomPart3{width:223px;height:134px;border-right: 1px dashed #999;float: left;}
+.dHeadBottom .dBottomPart3 .part3Top{width:223px;height:25px;margin-left:22px;float: left;display: block;font-size: 12px;}
+.dHeadBottom .dBottomPart3 .part3Bottom{float:left;margin-top:0px auto;width:211px;height:60px;padding:15px 6px;text-align:left;line-height:30px;font-size: 12px;color:#5b5b5a;}
+.dHeadBottom .dBottomPart3 .part3Bottom p{padding-left:35px}
+.dHeadBottom .dBottomPart4{width:198px;height:100%;float: left;}
+.dHeadBottom .dBottomPart4 .part4Top{display:block;width:198px;height:36px;line-height:18px;text-align: center;margin-top:21px; }
+.dHeadBottom .dBottomPart4 .part4Top p{font-size: 12px;}
+.dHeadBottom .dBottomPart4 .part4Bottom{display:block;width:122px;height:40px;background: #f49d27;border-radius: 5px;margin-top: 10px;margin-left: 38px;line-height: 40px;text-align: center;color:#fff;}
+.dHeadBottom .dBottomPart4 .part4BottomOff{display:block;width:122px;height:40px;background: #d8d8d8;border-radius: 5px;margin-top: 10px;margin-left: 38px;line-height: 40px;text-align: center;color:#fff;}
+.dHeadBottom .dBottomPart4 .offText{color:#A2A19D;margin-top:8px;width: 100%;text-align: center;}
+.dHeadBottom .dBottomPart4 .part4Bottom:hover{color:#313131;cursor:pointer;}
+/*HEAD END*/
+/*CENTER NAV*/
+.dCenter{height:auto;width:100%;margin-top: 19px;font-size: 12px;}
+.dCenter .centerNav{height:40px;width:100%;background: #fff;border-bottom: 1px solid #2aa26b;cursor: pointer;}
+.dCenter .centerNav .navLine{display:block;height:21px;width:1px;background: #d8d8d8;margin-top:9px;float: left;}
+.dCenter .centerNav .navCur{background: #2aa26b;color:#fbfdfc;}
+.dCenter .centerNav .navBin{float:left;line-height: 40px;text-align: center;}
+.dCenter .centerNav .navBinFixed{float:left;line-height:40px;text-align:center;font-weight: bold;z-index: 999;}
+.dCenter .navBuyFixed{background: #f49d27;color:#fff;float:left;line-height:40px;text-align:center;font-weight: bold;width:142px;}
+.dCenter .navBuyFixedOff{background: #D8D8D8;color:#fff;float:left;line-height:40px;text-align:center;font-weight: bold;font-size:14px;letter-spacing:0px;width:142px;}
+.dCenter .navFavFixed{float:left;line-height:40px;text-align:center;font-weight: bold;width:138px;}
+.dCenter #centerNavFixed{position: fixed;top:0px;width:1000px;background: rgba(255,255,255);display:none;}
+/*CENTER NAV END*/
+/*CENTER PART*/
+.dCenter .centerPartTitle{height:35px;width:100%;line-height: 35px;color:#2aa26b;text-indent: 2em;background: #e9f5f0 url(/img/www/program/PartTitle.png) no-repeat left top !important;}
+.dCenter .centerPartText{height:96%;width:92%;padding:20px 40px 0px 40px;font-size: 14px;line-height: 25px;overflow: hidden;}
+/*@mouse*/
+.dCenter .centerPartText p{margin: 7px 0 7px 0;}
+.dCenter .centerPartText table{border-color:#d8d8d8;margin:20px 0 20px 0}
+.dCenter .centerPartText table td{padding:5px}
+.dCenter .centerPartText img{margin:20px 0 20px 0}
+/*@mouse*/
+.dCenter .centerPart{height:auto;width:100%;background: #fff;margin-top:11px; display: block;float: left;min-height:100px;padding-bottom:15px;}
+.dCenter .centerPart1{height:0px;width:100%;display: block;float: left;}
+.dCenter .centerPart .centerDaliyLeft{width:183px;display: block;float: left;height:100%;}
+.centerPart .centerDaliyLeft .daliyLeftIn{width:120px;margin:28px;background:url(/img/www/program/daliybg.png) repeat-y 5px 15px;color:#999;}
+.centerPart .centerDaliyLeft .daliyLeftIn .on .daliyLeftInBox1{width:100%;height:15px;float: left;display: block;line-height: 15px;text-align:left;padding:5px 0px; padding-left:20px;background:url(/img/www/program/daliyon.png) no-repeat left center !important;color:#1bbc9c;}
+.centerPart .centerDaliyLeft .daliyLeftIn .off .daliyLeftInBox1{width:100%;height:16px;float: left;display: block;line-height: 16px;text-align:left;padding:5px 0px; padding-left:20px;background:url(/img/www/program/daliyoff.png) no-repeat left center !important;color:#acacac;}
+.centerPart .centerDaliyLeft .daliyLeftIn .on .more{background:url(/img/www/program/daliymore.png) no-repeat left center !important;color:#acacac;}
+.centerPart .centerDaliyLeft .daliyLeftIn .off .more{background:url(/img/www/program/daliymore.png) no-repeat left center !important;color:#acacac; display:none;}
+.centerPart .centerDaliyLeft .daliyLeftIn .daliyLeftInBox2{width:100%;min-height:13px;float: left;display: block;line-height: 13px;font-size:12px;text-align:left;padding:10px 0px; padding-left:20px;}
+.dCenter .centerPart .centerDaliyRight{width:817px;display: block;float:right;height:100%;}
+.centerPart .centerDaliyRight .daliyRightTop{width:100%;height:40px;margin:23px 0px;background:url(/img/www/program/kalendar.jpg) no-repeat left center;padding-left:60px;color:#b2b2b2;line-height: 16px;float: left;display: block;font-size: 12px;}
+.centerPart .centerDaliyRight .daliyRightTop p{color:#1cbd9d;font-size:16px; line-height: 24px;}
+.centerPart .centerDaliyRight .daliyRightBottom{font-size:14px;width:767px;min-height:70px;line-height:25px;margin-bottom:29px;color:#313131;float: left;display: block;}
+
+.centerPart .includeTitle{text-indent:3em;margin-left:36px;height:24px;margin-top:25px;color:#47c9b0;line-height:24px;float:left;display: block;clear:both;}
+.centerPart .includeLogo1{background:url(/img/www/program/cost1.jpg) no-repeat;}
+.centerPart .includeLogo2{background:url(/img/www/program/cost2.jpg) no-repeat;}
+.centerPart .includeLogo3{background:url(/img/www/program/cost3.jpg) no-repeat;}
+.centerPart .includeLogo4{background:url(/img/www/program/cost4.jpg) no-repeat;}
+
+.centerPart .includeText{display: block;float: left;width: 100%;height:auto;margin:15px 0px 0px 0px;}
+.centerPart .includeText p{margin:0px 80px;color:#363636;line-height:25px}
+
+
+
+.centerPart .centerPartVisa{background:url(/img/www/program/cost1.jpg) no-repeat;background-position:26px 21px;float: left;display: block;text-indent: 3em;}
+/*CENTER PART END*/
+
+.question-pic{width:200px;height:200px;/* border:1px solid #ccc; */ position:absolute;z-index:9; }
+.question-pic span{display:block;margin-left:160px;display: block;margin-top:120px;margin-bottom: 15px;}
+.question-pic p{text-align: center;color:#ED8437;font-size:12px;position: absolute;display: block;top:120px;left:70px; }
+.question-icon{width:33px;height:44px;display: block;position: absolute;top:-50px;left:-70px;background-image: url(/img/www/program/question.png);background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

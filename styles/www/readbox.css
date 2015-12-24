@@ -1,0 +1,33 @@
+/*SHOW READING*/
+.showReading{z-index: 9998;position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);display: none;}
+.showReadingBox{z-index:9999;position:fixed;top:-500px;left:50%;width:580px;height:600px;margin:-300px 0 0 -290px;}
+.showReadingBody{width:100%;height:100%;border:solid 2px #666;border-radius:5px;background-color:#fff;box-shadow: 0 0 10px #666;position:relative;}
+.showReadingClose{position:absolute;width:20px;height:20px;background:#f5a623;top:6px;right:6px; border-radius: 10px;color:#fff;text-align: center;line-height: 20px;}
+.showReadingBody .showBodyHead{height:32px;width:538px;float:left;margin:17px 21px 0px 21px;border-bottom: 1px solid #1bbc9c;clear: both;}
+.showReadingBody .showBodyHead .showBodyHeadPart1{height:30px;line-height:25px;min-width:165px;background:url(/img/www/program/showBoxHeadPart1.png) no-repeat left !important;font-size: 16px;color:#1bbc9c;display: block;float: left;text-indent:2em;}
+.showReadingBody .showBodyHead .showBodyHeadPart2{height:30px;line-height:25px;min-width:165px;background:url(/img/www/program/showBoxHeadPart2.png) no-repeat left !important;font-size: 14px;color:#619ee6;display: block;float: left;text-indent:1em;}
+.showReadingBody .showBodyTitle{height:53px;width:538px;float:left;margin:0px 21px 0px 21px;line-height:53px;font-size: 16px;font-weight: bold;}
+.showReadingBody .showBodyTag{min-height:24px;width:538px;float:left;margin:0px 21px 0px 21px;display: block;float: left;}
+.showReadingBody .showBodyTag .showBodyTagBox{min-width:50px;height:22px;padding:0px 12px;border:1px solid #ffd185;background: #fffeef;display: block;float: left;margin-right:8px;font-size: 12px;color:#4b4a4a;line-height:22px;margin-bottom: 8px;}
+.showReadingBody .showBodyDes{min-height:42px;width:514px;margin:9px 21px 0px 21px;background: #f0f0f0;display: block;float: left;padding:9px 12px;line-height:21px;color:#a1a1a1;}
+.showReadingBody .showBodyContent{height:360px;width:538px;margin:22px 21px 14px 21px;display: block;float: left;}
+/*SHOW READING END*/
+#scrollbar1 { width: 100%;; clear: both; margin: 0px 0 10px; }
+#scrollbar1 .viewport { width: 510px; height: 360px; overflow: hidden; position: relative; line-height:1.8em;}
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .scrollbar,
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background: transparent url(/img/www/program/bg-scrollbar.png) no-repeat; }
+#scrollbar1 .scrollbar { position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track	{ background: transparent url(/img/www/program/bg-scrollbar-end.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background-position: 100% 100%; height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { background-position: 100% 0; height: 5px; width: 13px; }
+#scrollbar1 .disable { display: none; }
+
+/** bg in dir: /img/www/bg/detail/ */
+[icon-detail]{background:url(/img/www/detail.6hh6rp.png) no-repeat;display:inline-block;}
+[icon-detail="fly"]{width:29px;height:23px;background-position:0 0;}
+[icon-detail="food"]{width:29px;height:23px;background-position:-34px 0;}
+[icon-detail="house"]{width:29px;height:23px;background-position:-68px 0;}
+[icon-detail="safe"]{width:29px;height:23px;background-position:-102px 0;}
+[icon-detail="visa"]{width:29px;height:23px;background-position:-136px 0;}

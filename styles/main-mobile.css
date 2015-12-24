@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, input  {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: "微软雅黑, arial, sans-serif";
+}
+ol, ul {
+	list-style: none;
+}
+.clearfix {
+	 *zoom: 1; 
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-padding: 0;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+img.block {
+	display: block;
+	max-width: 97%;
+	margin: 0 auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+}
+.tips {
+	font-weight: normal;
+	font-size: 80%;
+	color: #666;
+}
+.icon {
+	display: inline-block;
+	overflow: hidden;
+}
+.repeat-x {
+	overflow: hidden;
+}
+.repeat-y {
+	overflow: hidden;
+}
+
+/* 隐藏百度统计等第三方控件元素 */
+body > a {
+	display: none;
+}
+
+hr{border:none;border-top:1px solid #ddd;margin:0px;padding:0px;height:0px;}
+a.ui-link,a:link,a:visited,a:hover,a:active{text-decoration:none;color:#3ABF90;}
+.red{color:red;}
+.white{color:white;}
+.yellow{color:yellow;}
+.gre{color:#3ABF90;}
+.gray{color:gray;}
+.purple{color:#AA83D4;}
+.bold{font-weight:bold;}
+.goBack{width:100%;top:0px;border:0px;}
+
+
+.ui-header .ui-title {
+	margin-left: 4em;
+	text-align: left;
+}
+
+.border-b {
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 7pt;
+	margin-bottom: 7pt;
+}
+.border-t {
+	border-top: 1px solid #dddddd;
+	padding-top: 7pt;
+	margin-top: 7pt;
+}
